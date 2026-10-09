@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f8f6f3">
+    <meta name="description" content="Lume conecta mulheres em situação de risco às equipes policiais disponíveis por geolocalização, com dois aplicativos e acompanhamento em tempo real.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Lume — um pedido de socorro. Uma resposta mais perto.">
+    <meta property="og:description" content="Uma rede de proteção conectada do primeiro toque à chegada da equipe.">
+    <meta property="og:image" content="assets/images/lume-hero-v2.jpg">
+    <title>Lume — um pedido de socorro. Uma resposta mais perto.</title>
+    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="experience.css">
+    <link rel="stylesheet" href="app-demo.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="reading-progress" aria-hidden="true"></div>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#inicio" aria-label="Lume, início">
+          <img src="assets/images/logo-lume.png" alt="Lume">
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
+          <span></span><span></span>
+        </button>
+        <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+          <a href="#como-funciona">Como funciona</a>
+          <a href="#aplicativos">Dois aplicativos</a>
+          <a href="#seguranca">Segurança do SOS</a>
+          <a href="#dados">Dados do RS</a>
+          <a class="nav-cta" href="#implantacao">Para gestores <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero section-wrap" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> TECNOLOGIA A SERVIÇO DA PROTEÇÃO</p>
+          <h1 id="hero-title">O socorro<br>começa com<br><em>uma conexão.</em></h1>
+          <p class="hero-lede">Lume conecta mulheres em situação de risco às equipes policiais disponíveis — com geolocalização, acionamento direto e acompanhamento em tempo real.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#experiencia">Veja a conexão acontecer <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="hero-note"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 1.8 16.2 4v5.1c0 4.1-2.5 7.1-6.2 9.1-3.7-2-6.2-5-6.2-9.1V4L10 1.8Z"/><path d="m7.2 9.9 1.8 1.8 3.9-4"/></svg> Atendimento nos municípios com rede policial integrada ao Lume.</p>
+        </div>
+
+        <figure class="hero-visual reveal">
+          <div class="hero-orbit orbit-one" aria-hidden="true"></div><div class="hero-orbit orbit-two" aria-hidden="true"></div>
+          <img class="hero-photo" src="assets/images/lume-hero-v2.jpg" alt="Mulher sentada no sofá de casa, olhando com atenção para o celular em um momento reservado" fetchpriority="high" width="1024" height="1536">
+          <div class="hero-wash" aria-hidden="true"></div>
+          <div class="visual-label"><span class="visual-label-icon">✳</span><span>PROTEÇÃO QUE<br>SE MOVE COM VOCÊ</span></div>
+          <div class="dispatch-preview" aria-label="Exemplo ilustrativo do status de um pedido SOS">
+            <div class="dispatch-preview-top"><span class="live-dot"></span><span>EXEMPLO DE ATENDIMENTO</span><span class="preview-signal">●●●</span></div>
+            <div class="dispatch-preview-body">
+              <div class="dispatch-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-12A7 7 0 0 0 5 9c0 5.8 7 12 7 12Z"/><circle cx="12" cy="9" r="2.3"/></svg></div>
+              <div><strong>Localização compartilhada</strong><span>Equipe disponível notificada</span></div>
+              <span class="dispatch-arrow" aria-hidden="true">↗</span>
+            </div>
+            <p class="preview-caption">Status e mapa atualizados após o aceite da equipe.</p>
+          </div>
+        </figure>
+      </section>
+
+      <section class="connection-rail" aria-label="O caminho do pedido de ajuda">
+        <div class="section-wrap rail-inner">
+          <div class="rail-intro"><span class="rail-spark" aria-hidden="true">✳</span><p>Da mulher à equipe.<br><strong>Proteção conectada.</strong></p></div>
+          <ol class="rail-steps">
+            <li><span class="rail-number">01</span><div><strong>Conexão direta</strong><small>Localização aproxima os dois lados</small></div></li>
+            <li><span class="rail-number">02</span><div><strong>Chamado registrado</strong><small>O SOS permanece no sistema</small></div></li>
+            <li><span class="rail-number">03</span><div><strong>Resposta acompanhada</strong><small>Status e mapa após o aceite</small></div></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="experience-section" id="experiencia" aria-labelledby="experience-title">
+        <div class="section-wrap">
+          <div class="experience-heading reveal" id="como-funciona"><p class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span> SINTA COMO A CONEXÃO ACONTECE</p><h2 id="experience-title">O toque é simples.<br><em>O que acontece depois muda tudo.</em></h2><p>O SOS segue com a localização às equipes próximas e disponíveis, sem repasse manual por uma central dedicada ao Lume. Veja o fluxo nas duas telas.</p></div>
+          <div class="experience-console reveal" data-phase="0">
+            <div class="demo-grid" aria-hidden="true"></div>
+            <div class="demo-top"><span><i></i> LUME / CONEXÃO DIRETA</span><span>DEMONSTRAÇÃO ILUSTRATIVA</span></div>
+            <div class="app-demo-grid">
+              <div class="demo-app demo-app-lume">
+                <div class="demo-app-label"><span class="audience-dot"></span><strong>Lume</strong><small>Quem pede ajuda</small></div>
+                <div class="demo-device-viewport"><div class="demo-device demo-device-lume">
+                  <div class="device-island"></div><div class="device-status"><span>9:41</span><span>◔ ◉ ▰</span></div>
+                  <div class="device-brand"><img src="assets/images/logo-lume.png" alt="Lume" loading="lazy"><span class="device-avatar">A</span></div>
+                  <div class="device-screen screen-lume-home">
+                    <h3>Olá, Ana.</h3><p class="screen-subtitle">Sua rede de proteção está aqui.</p>
+                    <div class="screen-location"><span>⌖</span><div><small>SUA LOCALIZAÇÃO</small><strong>Porto Alegre, RS</strong></div><b>⌄</b></div>
+                    <button class="screen-sos" type="button" aria-label="Iniciar demonstração do SOS"><strong>SOS</strong><span>Toque para pedir ajuda</span></button><span class="demo-touch" aria-hidden="true"></span>
+                    <div class="screen-care"><span>✳</span><p>Você não está sozinha.<small>Ajuda conectada à sua localização.</small></p></div>
+                  </div>
+                  <div class="device-screen screen-lume-tracking">
+                    <div class="screen-status-icon">✓</div><h3 class="lume-status-title">Pedido enviado.</h3><p class="lume-status-description">Sua localização está conectada ao SOS.</p>
+                    <div class="screen-progress"><span></span><span></span><span></span></div>
+                    <div class="screen-map-wrap"><svg class="screen-map" viewBox="0 0 220 180" aria-hidden="true"><path class="screen-street" d="M-10 34 58 70 130 30 230 64M-10 145 75 110 153 138 235 103M35-10 58 70 40 195M129-10 130 30 103 108 127 194M194-10 170 70 196 194"/><path class="screen-route" d="M49 137 75 110 103 108 134 84 171 49"/><circle class="screen-destination" cx="49" cy="137" r="9"/><circle class="screen-team" cx="171" cy="49" r="9"/></svg><span class="screen-map-label">SUA LOCALIZAÇÃO</span></div>
+                    <div class="screen-tracking-status"><i></i><span class="lume-tracking-label">Buscando equipe disponível</span></div>
+                  </div>
+                  <div class="device-tabs"><span>⌂<small>Início</small></span><span>♡<small>Favoritos</small></span><span>◉<small>Perfil</small></span></div>
+                </div></div>
+                <p class="demo-screen-caption lume-screen-caption">Um toque inicia o pedido.</p>
+              </div>
+              <div class="demo-signal" aria-hidden="true"><span class="signal-label">CONEXÃO DIRETA</span><div class="signal-track"><i></i><i></i><i></i></div><span class="signal-symbol">⌖</span><strong>Localização<br>compartilhada</strong><small>Lume → Lume Force</small></div>
+              <div class="demo-app demo-app-force">
+                <div class="demo-app-label"><span class="audience-dot"></span><strong>Lume Force</strong><small>Quem pode responder</small></div>
+                <div class="demo-device-viewport"><div class="demo-device demo-device-force">
+                  <div class="device-island"></div><div class="device-status"><span>9:41</span><span>◔ ◉ ▰</span></div>
+                  <div class="device-brand"><img src="assets/images/logo-lume-force.png" alt="Lume Force" loading="lazy"><span class="device-force-dot"></span></div>
+                  <div class="device-screen screen-force-idle">
+                    <div class="screen-duty"><i></i><span>Equipe disponível<small>Em serviço · Porto Alegre</small></span><b></b></div>
+                    <h3>Pronta para atender.</h3><p class="screen-subtitle">Aguardando chamados na região.</p>
+                    <div class="screen-map-wrap"><svg class="screen-map" viewBox="0 0 220 180" aria-hidden="true"><path class="screen-street" d="M-10 34 58 70 130 30 230 64M-10 145 75 110 153 138 235 103M35-10 58 70 40 195M129-10 130 30 103 108 127 194M194-10 170 70 196 194"/><path class="screen-route" d="M49 137 75 110 103 108 134 84 171 49"/><circle class="screen-destination" cx="49" cy="137" r="9"/><circle class="screen-team" cx="171" cy="49" r="9"/></svg><div class="map-scan"></div></div>
+                    <div class="screen-idle-note"><span>⌖</span><p>Rede conectada<small>Disponibilidade compartilhada.</small></p></div>
+                  </div>
+                  <div class="device-screen screen-force-alert">
+                    <div class="screen-duty"><i></i><span>Equipe disponível<small>Em serviço · Porto Alegre</small></span><b></b></div>
+                    <div class="screen-incoming"><small><i></i> NOVO CHAMADO <span>Agora</span></small><h3>Alerta SOS</h3><p>Uma mulher precisa de apoio<br>na sua região.</p><div>⌖ Localização compartilhada</div></div>
+                    <div class="screen-map-wrap"><svg class="screen-map" viewBox="0 0 220 180" aria-hidden="true"><path class="screen-street" d="M-10 34 58 70 130 30 230 64M-10 145 75 110 153 138 235 103M35-10 58 70 40 195M129-10 130 30 103 108 127 194M194-10 170 70 196 194"/><path class="screen-route" d="M49 137 75 110 103 108 134 84 171 49"/><circle class="screen-destination" cx="49" cy="137" r="9"/><circle class="screen-team" cx="171" cy="49" r="9"/></svg></div>
+                    <button class="screen-accept" type="button" aria-label="Assumir atendimento na demonstração">Assumir atendimento <span>↗</span></button><span class="demo-force-touch" aria-hidden="true"></span>
+                  </div>
+                  <div class="device-screen screen-force-route">
+                    <div class="screen-route-heading"><span>✓</span><div><small>ATENDIMENTO ASSUMIDO</small><h3>Equipe a caminho.</h3></div></div>
+                    <div class="screen-map-wrap"><svg class="screen-map" viewBox="0 0 220 180" aria-hidden="true"><path class="screen-street" d="M-10 34 58 70 130 30 230 64M-10 145 75 110 153 138 235 103M35-10 58 70 40 195M129-10 130 30 103 108 127 194M194-10 170 70 196 194"/><path class="screen-route" d="M49 137 75 110 103 108 134 84 171 49"/><circle class="screen-destination" cx="49" cy="137" r="9"/><circle class="screen-team" cx="171" cy="49" r="9"/></svg><span class="screen-map-label">ROTA DO ATENDIMENTO</span></div>
+                    <div class="screen-route-note"><span>↗</span><div><strong>Localização recebida</strong><small>Status compartilhado com o Lume.</small></div></div>
+                    <div class="screen-route-button">Acompanhar ocorrência <span>⌖</span></div>
+                  </div>
+                  <div class="device-tabs"><span>⌂<small>Chamados</small></span><span>⌖<small>Mapa</small></span><span>◉<small>Equipe</small></span></div>
+                </div></div>
+                <p class="demo-screen-caption force-screen-caption">Equipe conectada e disponível.</p>
+              </div>
+            </div>
+            <div class="demo-controls"><div class="demo-status" role="status" aria-live="polite"><span class="demo-stage-number">01 / 04</span><h3 id="demo-title">Tudo começa com um toque.</h3><p id="demo-description">Acompanhe o SOS no Lume e a resposta pelo Lume Force.</p></div><button class="button demo-button" id="demo-start" type="button"><span class="demo-button-icon">✳</span><span class="demo-button-text">Simular a conexão</span><span aria-hidden="true">↗</span></button></div>
+            <div class="demo-timeline" role="group" aria-label="Escolha uma etapa da demonstração"><button type="button" class="is-active" data-stage="0" aria-pressed="true"><span>01</span><b>Pedido de ajuda</b><small>O primeiro toque</small></button><button type="button" data-stage="1" aria-pressed="false"><span>02</span><b>Localização</b><small>A conexão encontra o caminho</small></button><button type="button" data-stage="2" aria-pressed="false"><span>03</span><b>Equipe policial</b><small>O alerta chega ao Lume Force</small></button><button type="button" data-stage="3" aria-pressed="false"><span>04</span><b>Acompanhamento</b><small>A resposta fica visível</small></button></div>
+          </div>
+          <p class="demo-disclaimer">Demonstração conceitual das telas e do fluxo dos aplicativos. Nenhum alerta é enviado ou atendimento acionado.</p>
+        </div>
+      </section>
+
+      <section class="stats-section" id="dados" aria-labelledby="stats-title">
+        <div class="section-wrap stats-inner">
+          <div class="stats-heading reveal">
+            <p class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span> POR QUE ESSA CONEXÃO IMPORTA</p>
+            <h2 id="stats-title">No Rio Grande do Sul,<br><em>o tempo faz diferença.</em></h2>
+            <p>O volume de violência doméstica pede uma rede capaz de responder de forma coordenada, perto de onde a mulher está.</p>
+          </div>
+          <div class="stats-grid reveal">
+            <article class="stat-card stat-card-main">
+              <span class="stat-index">01 / RS</span>
+              <strong>100 mil<sup>+</sup></strong>
+              <p>casos de violência doméstica registrados no estado em 2025</p>
+            </article>
+            <article class="stat-card">
+              <span class="stat-index">02 / CAPITAL</span>
+              <strong>9 mil</strong>
+              <p>casos registrados em Porto Alegre no mesmo ano</p>
+            </article>
+            <article class="stat-card">
+              <span class="stat-index">03 / REDE</span>
+              <strong>25</strong>
+              <p>Delegacias Especializadas no Atendimento à Mulher no estado</p>
+            </article>
+            <article class="stat-card">
+              <span class="stat-index">04 / ACOLHIMENTO</span>
+              <strong>103</strong>
+              <p>Salas das Margaridas existentes no estado</p>
+            </article>
+          </div>
+          <p class="stats-source">Fonte: <a href="https://ssp.rs.gov.br/governo-do-estado-firma-parceria-com-empresa-de-tecnologia-para-oferecer-transporte-gratuito-a-mulheres-vitimas-de-violencia" target="_blank" rel="noopener noreferrer">SSP/RS, 2 jul. 2026</a>. Os números de ocorrências são referentes a 2025; a rede foi descrita pela SSP na mesma publicação. <a href="https://www.seguranca.rs.gov.br/indicadores-da-violencia-contra-a-mulher" target="_blank" rel="noopener noreferrer">Consulte os indicadores oficiais</a>. Estes dados descrevem a rede pública do RS; não representam cobertura ou resultados do Lume.</p>
+        </div>
+      </section>
+
+      <section class="apps-section section-wrap" id="aplicativos" aria-labelledby="apps-title">
+        <div class="section-heading apps-heading reveal">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> DUAS EXPERIÊNCIAS, UMA REDE</p>
+          <h2 id="apps-title">Uma interface para pedir.<br><em>Outra para agir.</em></h2>
+          <p>Cada aplicativo tem seu papel. O mesmo chamado conecta as duas experiências.</p>
+        </div>
+
+        <div class="app-cards">
+          <article class="app-card app-card-lume reveal">
+            <div class="app-card-copy">
+              <div class="product-heading">
+                <span class="app-audience"><span class="audience-dot"></span> PARA MULHERES</span>
+                <img class="app-logo" src="assets/images/logo-lume.png" alt="Lume" loading="lazy">
+              </div>
+              <h3>Um toque para<br>pedir ajuda.</h3>
+              <p>Prepare endereços e contatos de confiança. Ao pedir ajuda, use a localização atual ou um endereço salvo. Depois do aceite, acompanhe a equipe no mapa.</p>
+              <ul class="app-feature-list"><li>Endereços favoritos</li><li>Contatos de confiança</li><li>Status e mapa do chamado</li></ul>
+            </div>
+            <div class="phone-stage phone-stage-lume" aria-label="Prévia ilustrativa da tela inicial do aplicativo Lume">
+              <span class="stage-wordmark" aria-hidden="true">lume.</span>
+              <div class="phone-shell phone-lume">
+                <div class="phone-island"></div>
+                <div class="phone-status"><span>9:41</span><span>◔ ◉ ▰</span></div>
+                <div class="phone-brand-row"><img class="phone-app-logo" src="assets/images/logo-lume.png" alt="" loading="lazy"><span class="avatar-dot">A</span></div>
+                <div class="phone-greeting"><strong>Olá, Ana.</strong><span>Sua rede de proteção está aqui.</span></div>
+                <div class="phone-location"><span class="location-pulse"></span><div><small>LOCALIZAÇÃO</small><strong>Porto Alegre, RS</strong></div><span>⌄</span></div>
+                <div class="sos-button"><span>SOS</span><small>Toque para pedir ajuda</small></div>
+                <div class="phone-help"><span>✳</span><span><strong>Você não está sozinha</strong><small>Ajuda conectada, em tempo real.</small></span><b>›</b></div>
+                <div class="phone-tabs"><span class="tab-active">⌂<small>Início</small></span><span>♡<small>Favoritos</small></span><span>◉<small>Perfil</small></span></div>
+              </div>
+            </div>
+              <div class="product-callout"><span class="callout-icon" aria-hidden="true">↗</span><div><small>O PEDIDO COMEÇA AQUI</small><strong>Sua localização.<br>Junto ao seu SOS.</strong></div></div>
+          </article>
+
+          <article class="app-card app-card-force reveal">
+            <div class="app-card-copy">
+              <div class="product-heading">
+                <span class="app-audience app-audience-blue"><span class="audience-dot"></span> PARA EQUIPES POLICIAIS</span>
+                <img class="app-logo app-logo-force" src="assets/images/logo-lume-force.png" alt="Lume Force" loading="lazy">
+              </div>
+              <h3>O alerta chega.<br>A equipe assume.</h3>
+              <p>Uma experiência para o trabalho em campo: disponibilidade da equipe, alertas da região e informações do chamado reunidas na mesma tela.</p>
+              <ul class="app-feature-list app-feature-list-blue"><li>Plantão e disponibilidade</li><li>Notificações de novos SOS</li><li>Dados e rota da ocorrência</li></ul>
+            </div>
+            <div class="phone-stage phone-stage-force" aria-label="Prévia conceitual do aplicativo Lume Force com disponibilidade, alerta SOS e mapa do atendimento">
+              <span class="stage-wordmark" aria-hidden="true">force.</span>
+              <div class="phone-shell phone-force">
+                <div class="phone-island"></div>
+                <div class="phone-status"><span>9:41</span><span>◔ ◉ ▰</span></div>
+                <div class="phone-brand-row"><img class="phone-app-logo phone-app-logo-force" src="assets/images/logo-lume-force.png" alt="Lume Force" loading="lazy"></div>
+                <div class="force-duty"><span class="duty-dot"></span><div><strong>Equipe disponível</strong><small>Em serviço · Porto Alegre</small></div><span class="duty-switch" aria-hidden="true"></span></div>
+                <div class="force-alert"><div class="force-alert-top"><span><i></i> NOVO CHAMADO</span><small>Agora</small></div><strong>Alerta SOS</strong><p>Uma mulher precisa de apoio<br>na sua região.</p><span class="force-alert-location"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6 7-12A7 7 0 0 0 5 9c0 6 7 12 7 12Z"/><circle cx="12" cy="9" r="2"/></svg> Localização compartilhada</span></div>
+                <div class="force-mini-map" aria-hidden="true"><svg viewBox="0 0 220 132"><path class="mini-street" d="M-10 30 62 55 100 20 230 45M-10 102 75 85 133 109 230 76M38-10 62 55 50 145M135-10 100 20 114 80 133 145M194-10 174 50 199 145"/><path class="mini-route" d="M50 102 74 85 114 80 146 62 173 36"/><circle class="mini-origin" cx="50" cy="102" r="7"/><circle class="mini-destination" cx="173" cy="36" r="7"/></svg><span>VISÃO DO ATENDIMENTO</span><i>↗</i></div>
+                <div class="force-accept">Assumir atendimento <span aria-hidden="true">↗</span></div>
+                <div class="phone-tabs"><span class="tab-active">⌂<small>Chamados</small></span><span>⌖<small>Mapa</small></span><span>◉<small>Equipe</small></span></div>
+              </div>
+            </div>
+              <div class="product-callout"><span class="callout-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m12 3 7 3v6c0 4-3 7-7 9-4-2-7-5-7-9V6l7-3Z"/><path d="m8 12 3 3 5-6"/></svg></span><div><small>A RESPOSTA COMEÇA AQUI</small><strong>Contexto para agir.<br>Localização para chegar.</strong></div></div>
+          </article>
+        </div>
+        <div class="apps-connection reveal"><span>Lume</span><div aria-hidden="true"><i></i></div><p>Um pedido.<br><strong>Dois lados conectados.</strong></p><div aria-hidden="true"><i></i></div><span>Lume Force</span></div>
+      </section>
+
+      <section class="direct-section safety-section" id="seguranca" aria-labelledby="safety-title">
+        <div class="section-wrap">
+          <div class="safety-heading reveal">
+            <div><p class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span> PROTEÇÃO DO PEDIDO AO ACOMPANHAMENTO</p><h2 id="safety-title">O SOS continua.<br><em>Mesmo depois do toque.</em></h2></div>
+            <p>O chamado confirmado fica registrado. O Lume Force pode avisar as equipes sem manter a tela aberta, e o status mostra quando o atendimento é assumido.</p>
+          </div>
+          <div class="safety-grid">
+            <article class="safety-card reveal"><span class="safety-index">01 / CONTINUIDADE</span><div class="safety-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 10h12v11H6zM8 10V6a4 4 0 0 1 8 0v4"/><circle cx="12" cy="15" r="1"/><path d="M12 16v2"/></svg></div><h3>SOS sem cancelamento<br>pela vítima.</h3><p>Depois de confirmado, o chamado não pode ser cancelado no Lume, nem pela própria mulher. Essa regra impede que o pedido seja interrompido pelo aplicativo, inclusive sob pressão.</p></article>
+            <article class="safety-card safety-card-blue reveal"><span class="safety-index">02 / NOTIFICAÇÃO</span><div class="safety-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0v5l2 4H4l2-4V8M9 21h6M3 8V5M21 8V5"/></svg></div><h3>O alerta vai além<br>da tela aberta.</h3><p>As equipes em serviço recebem notificações no Lume Force sem precisar manter o aplicativo aberto na tela. O aviso leva o SOS à equipe disponível para que ela assuma o atendimento.</p></article>
+            <article class="safety-card safety-card-green reveal"><span class="safety-index">03 / ACOMPANHAMENTO</span><div class="safety-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h16v16H4zM8 8h8M8 12h5M8 16h3"/><path d="m15 16 2 2 4-5"/></svg></div><h3>Chamado registrado.<br>Status visível.</h3><p>O SOS confirmado permanece no sistema. Quando uma equipe assume, o Lume atualiza o status e permite acompanhar sua aproximação no mapa.</p></article>
+          </div>
+          <div class="safety-status reveal"><span>Registro do SOS</span><i aria-hidden="true">→</i><span>Aviso à equipe</span><i aria-hidden="true">→</i><span>Atendimento assumido</span><i aria-hidden="true">→</i><strong>Acompanhamento</strong></div>
+          <p class="safety-note">Notificação recebida e atendimento assumido são etapas distintas. O recebimento dos avisos depende de conexão, permissões de notificação e funcionamento do aparelho; a resposta depende da disponibilidade da rede policial integrada.</p>
+        </div>
+      </section>
+
+      <section class="deployment-section section-wrap" id="implantacao" aria-labelledby="deployment-title">
+        <div class="deployment-heading reveal">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-dot"></span> UMA REDE SE CONSTRÓI EM PARCERIA</p>
+            <h2 id="deployment-title">Tecnologia conectada<br><em>à operação da cidade.</em></h2>
+          </div>
+          <p>O Lume é pensado para implantação com gestores públicos e forças policiais. A implantação define quais áreas e equipes participam, além do protocolo de atendimento do município.</p>
+        </div>
+        <div class="deployment-grid">
+          <article class="deployment-card reveal"><span>01</span><div class="deployment-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.4"/><path d="M3.5 19c.5-3.2 2.4-5 5.5-5s5 1.8 5.5 5M15 14.5c2.8-.3 4.6 1.2 5.2 3.7"/></svg></div><h3>Articular</h3><p>Alinhar a participação do município, dos gestores e das equipes que vão operar a rede.</p></article>
+          <article class="deployment-card reveal"><span>02</span><div class="deployment-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5.5h18v13H3z"/><path d="m3 9 6 4 3-2 3 2 6-4M9 18.5v-5m6 5v-5"/></svg></div><h3>Configurar</h3><p>Definir a área coberta, as unidades conectadas, os perfis policiais e as regras de disponibilidade.</p></article>
+          <article class="deployment-card reveal"><span>03</span><div class="deployment-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V9l8-5 8 5v10"/><path d="M9 19v-6h6v6M8 9h.01M12 9h.01M16 9h.01"/></svg></div><h3>Operar em rede</h3><p>Preparar as equipes, habilitar as notificações e estabelecer o acompanhamento operacional dos chamados.</p></article>
+        </div>
+      </section>
+
+      <section class="faq-section section-wrap" id="duvidas" aria-labelledby="faq-title">
+        <div class="faq-heading reveal"><p class="eyebrow"><span class="eyebrow-dot"></span> PERGUNTAS FREQUENTES</p><h2 id="faq-title">Clareza também<br><em>faz parte do cuidado.</em></h2><p>Respostas sobre uso, continuidade do SOS e disponibilidade do serviço.</p></div>
+        <div class="faq-list reveal">
+          <details><summary>Posso cancelar o SOS depois de confirmar?<span aria-hidden="true">+</span></summary><p>Não. Depois da confirmação, a mulher não consegue cancelar o chamado pelo Lume. Mesmo em um acionamento por engano, a situação deve ser esclarecida com a equipe responsável pelo atendimento.</p></details>
+          <details><summary>Preciso deixar o Lume Force aberto para receber alertas?<span aria-hidden="true">+</span></summary><p>A equipe em serviço pode receber notificações sem manter o app aberto na tela, com conexão e notificações habilitadas. O encerramento forçado do app e restrições do aparelho podem impedir a entrega dos avisos.</p></details>
+          <details><summary>Notificação enviada significa que uma equipe já assumiu?<span aria-hidden="true">+</span></summary><p>Não. O aviso apresenta o SOS à equipe; o aceite confirma que ela assumiu o atendimento. O Lume atualiza o status após esse aceite. Se não houver confirmação e o risco for imediato, procure atendimento pelo 190.</p></details>
+          <details><summary>O aplicativo funciona em qualquer município?<span aria-hidden="true">+</span></summary><p>O atendimento depende de implantação local, área coberta e equipes policiais conectadas. Confirme a disponibilidade do Lume no seu município.</p></details>
+          <details><summary>O Lume substitui o telefone 190?<span aria-hidden="true">+</span></summary><p>Não. O Lume complementa a rede de proteção nos municípios integrados. Em situação de emergência policial, ligue 190.</p></details>
+        </div>
+      </section>
+
+      <section class="emergency-note section-wrap" aria-label="Orientação para situações de emergência">
+        <span class="emergency-note-icon">!</span>
+        <p><strong>Em situação de risco imediato:</strong> ligue <a href="tel:190">190 — Polícia Militar</a>. Não espere a confirmação pelo aplicativo para buscar ajuda em uma emergência.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-wrap footer-main">
+        <a class="footer-brand" href="#inicio" aria-label="Lume, início"><img src="assets/images/logo-lume.png" alt="Lume"></a>
+        <p>Mais conexão entre o pedido de ajuda<br>e quem pode responder.</p>
+        <nav aria-label="Links do rodapé"><a href="#como-funciona">Como funciona</a><a href="#dados">Dados do RS</a><a href="#implantacao">Implantação</a></nav>
+      </div>
+      <div class="section-wrap footer-bottom"><span>© <span id="year">2026</span> Lume</span><span>SSP/RS · ocorrências de 2025 · rede pública descrita em jul. 2026. <a href="https://www.seguranca.rs.gov.br/indicadores-da-violencia-contra-a-mulher" target="_blank" rel="noopener noreferrer">Indicadores oficiais</a>.</span><a href="#inicio" class="back-top">Voltar ao topo ↑</a></div>
+    </footer>
+  </body>
+</html>
