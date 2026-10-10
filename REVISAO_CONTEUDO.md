@@ -34,6 +34,8 @@ A seção de segurança descreve continuidade e acompanhamento do chamado. A pá
 
 ## Fontes
 
+- Canais de ajuda revisados em 10 de outubro de 2026: o Ministério das Mulheres orienta acionar o 190 em emergência ou risco imediato e o Ligue 180 para orientação, informações sobre a rede de atendimento e registro de denúncias. A LP e a apresentação comercial distinguem os dois canais. Fonte: https://www.gov.br/mulheres/pt-br/ligue180
+
 - Projeto local: `Lume.Api/Controllers/AlertsController.cs`, `Lume.Infrastructure/Services/AlertService.cs` e `SignalRNotificationService.cs`; handler Android do Lume Force.
 - SSP/RS, publicação de 2 de julho de 2026: https://ssp.rs.gov.br/governo-do-estado-firma-parceria-com-empresa-de-tecnologia-para-oferecer-transporte-gratuito-a-mulheres-vitimas-de-violencia
 - Limites de recebimento: https://firebase.google.com/docs/cloud-messaging/flutter/receive-messages
